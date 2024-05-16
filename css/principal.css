@@ -1,0 +1,26 @@
+.cojedor {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.pares {
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 50%;
+    overflow: hidden;
+    word-break: break-all;
+    color: red;
+}
+
+.inpares {
+    background-color: burlywood;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 50%;
+    word-break: break-all;
+    color: rgb(17, 30, 88);
+}
