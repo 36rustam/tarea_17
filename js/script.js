@@ -10,16 +10,16 @@ let dato = 0;
 
 // button
 
-
+/* 
 let enviar = document.getElementById("endatos");
 enviar.addEventListener("click", prob);
 function prob(e) {
 dato=document.getElementById("dato").value; 
 
-
+ */
 
 // input
-// dato = prompt("da me dato");
+dato = prompt("da me dato");
 
 if (dato / dato === 1) {
     // revisor
@@ -46,4 +46,4 @@ console.log("inpares " + inpares);
 document.getElementById("pares").textContent = pares;
 document.getElementById("inpares").textContent = inpares;
 
-}
+// }
